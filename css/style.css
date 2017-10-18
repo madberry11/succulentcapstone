@@ -1,0 +1,119 @@
+
+
+/*
+#background {
+    position: relative;
+    background: #43C6AC; 
+    background: -webkit-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: -moz-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: -ms-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: -o-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	width: 100vw;
+    height: 100vh;
+}
+
+#background:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.1;
+    background-image: url("noun_165782_cc.SVG");
+    background-repeat: no-repeat;
+    background-position: top left;
+    -ms-background-size: 50vw;
+    -o-background-size: 50vw;
+    -moz-background-size: 50vw;
+    -webkit-background-size: 50vw;
+    background-size: 50vw;
+}
+*/
+
+.description {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.normaltext {
+	font-size: 20px;
+}
+
+.cover-size-image {
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+
+.content {
+	min-height: calc(100vh - 150px);
+}
+
+.footer {
+	height: 100px;
+}
+
+
+#copyrights {
+	margin-top: 3rem;
+}
+
+ul.sources  {
+	list-style: none;
+}
+
+header, .success {
+	background: #43C6AC;  
+    background: -webkit-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: -moz-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: -ms-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: -o-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	background: linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
+	
+	background: #43C6AC !important;  
+    background: -webkit-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
+	background: -moz-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
+	background: -ms-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
+	background: -o-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
+	background: linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
+}
+
+nav {
+	background-color: #34403a !important;
+}
+
+.nav-item {
+	text-align: right !important;
+}
+
+h3 {
+	margin-top: 2rem;
+}
+
+.success a {
+	color: black !important;
+}
+
+.carenav {
+	font-size: 2rem;
+}
+
+.carenav .fa {
+	margin-right: 0.5rem;
+}
+
+#caredetails {
+	border: 2px solid #ddd;
+	border-top: 1px solid #ddd;
+	padding: 2rem;
+}
+
+.toright {
+	transform: translateX(50vw);
+	background-color: yellow;
+}
