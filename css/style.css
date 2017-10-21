@@ -81,14 +81,26 @@ header, .success {
 	background: -ms-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
 	background: -o-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
 	background: linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
+	
+	background: #1A7B4D !important;
 }
 
-nav {
+nav, footer .footer-below {
 	background-color: #34403a !important;
 }
 
-.nav-item {
+nav {
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+}
+
+.nav-link {
+	float: right !important;
+}
+
+#navbarResponsive.collapse.navbar-collapse {
 	text-align: right !important;
+	margin-right: 15px !important;
 }
 
 h2 {
@@ -115,5 +127,9 @@ h2 {
 
 .toright {
 	transform: translateX(50vw);
+	background-color: yellow;
+}
+
+.lb-container>.nav {
 	background-color: yellow;
 }
