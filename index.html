@@ -141,7 +141,7 @@
 				<hr class="star-primary">
 				<div class="row">
 					<div class="col-sm-4 album-item">
-						<a class="album-link example-image-link" href="img/succulents/photos/IMG_4779.jpg" data-lightbox="example-set" data-title="Baby succulent propagation from leaf">
+						<a class="album-link example-image-link" href="img/succulents/photos/IMG_4779_smaller.jpg" data-lightbox="example-set" data-title="Baby succulent propagation from leaf">
 							<div class="caption">
 								<div class="caption-content">
 									<i class="fa fa-search-plus fa-3x"></i>
@@ -151,7 +151,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 album-item">
-						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6061.JPG" data-lightbox="example-set" data-title="Echeveria Dondo (unconfirmed) under artificial winter lights">
+						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6061_smaller.JPG" data-lightbox="example-set" data-title="Echeveria Dondo (unconfirmed) under artificial winter lights">
 							<div class="caption">
 								<div class="caption-content">
 									<i class="fa fa-search-plus fa-3x"></i>
@@ -161,7 +161,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 album-item">
-						<a class="album-link example-image-link img-rounded" href="img/succulents/photos/IMG_6757.JPG" data-lightbox="example-set" data-title="Beheaded Echeveria Perle von Nurnberg has grown many new rosettes from single stem">
+						<a class="album-link example-image-link img-rounded" href="img/succulents/photos/IMG_6757_smaller.JPG" data-lightbox="example-set" data-title="Beheaded Echeveria Perle von Nurnberg has grown many new rosettes from single stem">
 							<div class="caption">
 								<div class="caption-content">
 									<i class="fa fa-search-plus fa-3x"></i>
@@ -171,7 +171,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 album-item">
-						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6763.JPG" data-lightbox="example-set" data-title="Echeveria Chihuahuensis (unconfirmed)">
+						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6763_smaller.JPG" data-lightbox="example-set" data-title="Echeveria Chihuahuensis (unconfirmed)">
 							<div class="caption">
 								<div class="caption-content">
 									<i class="fa fa-search-plus fa-3x"></i>
@@ -181,7 +181,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 album-item">
-						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6785.JPG" data-lightbox="example-set" data-title="Echeveria Perle von Nurnberg">
+						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6785_smaller.JPG" data-lightbox="example-set" data-title="Echeveria Perle von Nurnberg">
 							<div class="caption">
 								<div class="caption-content">
 									<i class="fa fa-search-plus fa-3x"></i>
@@ -191,7 +191,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 album-item">
-						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6778.JPG" data-lightbox="example-set" data-title="Baby Echeveria Prolifica">
+						<a class="album-link example-image-link" href="img/succulents/photos/IMG_6778_smaller.JPG" data-lightbox="example-set" data-title="Baby Echeveria Prolifica">
 							<div class="caption">
 								<div class="caption-content">
 									<i class="fa fa-search-plus fa-3x"></i>
@@ -320,7 +320,7 @@
 		
 		// Close hamburger if it gets clicked on again
 		$(document).on('click','.navbar-collapse.in',function(e) {
-			if( $(e.target).is('a') ) {
+			if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
 				$(this).collapse('hide');
 			}
 		});
