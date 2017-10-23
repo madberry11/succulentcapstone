@@ -1,5 +1,22 @@
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
+
+
+.navbar-brand {
+	
+}
+
+.name {
+	font-family: 'Amatic SC', sans-serif !important;
+	font-size: 9rem !important;
+}
+
+.description {
+	font-family: 'Quicksand', sans-serif !important;
+	font-size: 2.5rem !important;
+}
 
 header.masthead{
 	padding-top: 40px;
