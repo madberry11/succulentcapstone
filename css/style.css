@@ -176,7 +176,9 @@ h2 {
 	}
     #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         background-color: #f1f1f1;
-		color: #33333;
+	}
+	#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus a {
+		color: #33333; 
 	}
 }
 
