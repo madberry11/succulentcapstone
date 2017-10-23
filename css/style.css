@@ -100,8 +100,12 @@ nav {
 }
 
  #mainNav .navbar-brand {
-	font-size: 1.7rem;  
+	font-size: 2rem;  
  }
+ 
+section {
+	padding: 3rem 0;
+}
  
  /* Font sizes on mobile */
  
