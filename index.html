@@ -285,7 +285,7 @@
 		var soil = "<div class='carecontent' id='soil'><h2>Soil</h2><p>While they may survive in normal soil if you are really careful with watering, succulents are best kept in a potting medium that does not retain water. Hardcore succulent fans have their own potting mix recipes. For less creative people like me, normal <a href='https://www.amazon.co.uk/Cactus-Focus-Repotting-Mix-Litre/dp/B007797622'>succulent/cactus potting mix</a> works completely fine too.</p><p>Unless you are an expert, do not use containers without drainage holes for succulents. No matter how pretty those succulent terrariums looked on Pinterest.</p></div>";
 		var propagation = "<div class='carecontent' id='propagation'><h2>Propagation</h2><p>Succulents can be propagated from leaves, cuttings or offsets (pups) - exactly which depends on the type of succulent. Most common succulents can be propagated from leaves. You can find various approaches on how to grow babies from leaves most efficiently, but usually just carefully removing a leaf, laying it on top of the soil and leaving it alone works.</p></div>";
 	
-	
+		
 		$('ul.carenav li a').click(function(event) {
 			event.preventDefault();
 			$("ul.carenav li").removeClass("active");
@@ -315,6 +315,13 @@
 				default:
 					$("#caredetails").html(sun);
 					$("#sun").removeClass("toright");
+			}
+		});
+		
+		// Close hamburger if it gets clicked on again
+		$(document).on('click','.navbar-collapse.in',function(e) {
+			if( $(e.target).is('a') ) {
+				$(this).collapse('hide');
 			}
 		});
 

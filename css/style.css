@@ -120,6 +120,11 @@ h2 {
 
 @media only screen and (max-width: 992px) {
 	
+	.navbar-toggler {
+		position: relative;
+		right: 5% !important;
+	}
+	
 	#mainNav .navbar-nav {
 		overflow-x: hidden;
 		width: 100%;
@@ -191,4 +196,8 @@ h2 {
 	border: 2px solid #ddd;
 	border-top: 1px solid #ddd;
 	padding: 2rem;
+}
+
+.sources {
+	font-size: 1.7rem;
 }
