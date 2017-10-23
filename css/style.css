@@ -155,7 +155,8 @@ h2 {
 		color: white; 
 		width: 93vw;
 		padding-left: 5vw;
-		background-color: #18BC9C;
+		background-color: #586e63;
+		margin-bottom: 2px;
 	}
 	#mainNav .navbar-nav li.nav-item a {
 		text-align: left !important;
