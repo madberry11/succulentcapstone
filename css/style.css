@@ -8,16 +8,6 @@
 	
 }
 
-.name {
-	font-family: 'Amatic SC', sans-serif !important;
-	font-size: 9rem !important;
-}
-
-.description {
-	font-family: 'Quicksand', sans-serif !important;
-	font-size: 2.5rem !important;
-}
-
 header.masthead{
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -108,6 +98,16 @@ h2 {
 	font-size: 2.5rem !important;
 }
 
+.name {
+	font-family: 'Amatic SC', sans-serif !important;
+	font-size: 6rem !important;
+}
+
+.description {
+	font-family: 'Quicksand', sans-serif !important;
+	font-size: 2rem !important;
+}
+
 
 /* Font sizes on large screen */
 
@@ -119,6 +119,14 @@ h2 {
 
 	h1 {
 		font-size: 4rem;
+	}
+	
+	.name {
+		font-size: 9rem !important;
+	}
+
+	.description {
+		font-size: 2.5rem !important;
 	}
 		
 }
