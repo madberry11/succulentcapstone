@@ -176,6 +176,27 @@ h2 {
 	}
 }
 
+
+/* Scroll up button */
+
+.btn-primary {
+	font-weight: 700;
+	color: white;
+	border-color: #2C3E50;
+	background-color: #34403a; }
+.btn-primary.focus, .btn-primary:focus {
+    color: white;
+    border-color: black;
+    background-color: #1a252f; }
+.btn-primary:hover {
+    color: white;
+    border-color: #161f29;
+    background-color: #1a252f; }
+	
+	
+	
+	
+	
 .success a {
 	color: black !important;
 }
