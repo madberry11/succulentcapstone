@@ -118,7 +118,7 @@ h2 {
 
 /* Navbar dropdown colour */
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 992px) {
 	
 	#mainNav .navbar-nav {
 		overflow-x: hidden;
