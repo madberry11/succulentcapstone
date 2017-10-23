@@ -126,7 +126,6 @@ h2 {
 	#mainNav .navbar-nav li.nav-item {
 		color: white; 
 		width: 93vw;
-		padding-left: 5vw;
 		background-color: #586e63;
 		margin-bottom: 2px;
 	}
@@ -135,19 +134,20 @@ h2 {
 		width: 100%;
 		padding-top: 2vw;
 		padding-bottom: 2vw;
+		padding-left: 5vw;
 	}
     #mainNav .navbar-nav li.nav-item:hover {
         background-color: #f1f1f1;
         outline: none;
 	}
 	#mainNav .navbar-nav li.nav-item:hover a {
-		color: #33333;
+		color: #33333 !important;
 	}
     #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         background-color: #f1f1f1;
 	}
 	#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus a {
-		color: #33333; 
+		color: #33333 !important; 
 	}
 }
 
