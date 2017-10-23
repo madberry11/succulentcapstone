@@ -99,6 +99,40 @@ nav {
 	border-radius: 0px !important;
 }
 
+ #mainNav .navbar-brand {
+	font-size: 1.7rem;  
+ }
+ 
+ /* Font sizes on mobile */
+ 
+ 
+p {
+	font-size: 1.7rem;
+}
+ 
+h1 {
+	font-size: 3rem;
+ }
+ 
+h2 {
+	margin-top: 2rem;
+}
+
+
+/* Font sizes on large screen */
+
+@media (min-width: 992px) {
+	
+	p {
+		font-size: 2rem;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+		
+}
+
 .nav-link {
 	float: right !important;
 }
@@ -106,10 +140,6 @@ nav {
 #navbarResponsive.collapse.navbar-collapse {
 	text-align: right !important;
 	margin-right: 15px !important;
-}
-
-h2 {
-	margin-top: 2rem;
 }
 
 .success a {
