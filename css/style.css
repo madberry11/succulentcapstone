@@ -183,8 +183,8 @@ h2 {
 .btn-primary {
 	font-weight: 700;
 	color: white;
-	border-color: #2C3E50;
-	background-color: #34403a; }
+	border-color: #1A7B4D !important;
+	background-color: #18BC9C !important; }
 .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: black;
@@ -200,6 +200,10 @@ h2 {
 	
 .success a {
 	color: black !important;
+}
+
+footer a {
+	color: #18BC9C !important;
 }
 
 
