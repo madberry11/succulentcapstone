@@ -242,3 +242,7 @@ h2 {
 .panel-body a {
 	color: #18BC9C !important;
 }
+
+#accordion a:focus {
+	text-decoration: none !important;
+}
