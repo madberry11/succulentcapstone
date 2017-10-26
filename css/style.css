@@ -202,6 +202,7 @@ h2 {
 	color: black !important;
 }
 
+
 .carenav {
 	font-size: 2rem;
 }
@@ -214,4 +215,30 @@ h2 {
 	border: 2px solid #ddd;
 	border-top: 1px solid #ddd;
 	padding: 2rem;
+}
+
+
+
+
+/* Accordion */
+
+#accordion {
+	width: 100%;
+}
+
+.accordion-toggle {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.glyphicon {
+	float: left;
+}
+
+.panel-body {
+	color: #333;
+}
+
+.panel-body a {
+	color: #18BC9C !important;
 }
