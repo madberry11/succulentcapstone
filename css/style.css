@@ -80,7 +80,7 @@ h1 {
 	font-size: 3rem;
  }
  
-h2 {
+#tabs-container h2 {
 	margin-top: 2rem !important;
 	margin-bottom: 1rem !important;
 	font-size: 2.5rem !important;
