@@ -234,6 +234,10 @@ footer a {
 	padding: 2rem;
 }
 
+.sr-only {
+	display: none !important;
+}
+
 /* Don't show dotted outline around next/prev area on Lighbox */
 .lb-prev, .lb-next {
 	outline: 0 !important;
