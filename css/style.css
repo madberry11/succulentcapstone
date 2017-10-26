@@ -101,6 +101,14 @@ h2 {
 	text-transform: uppercase;
 }
 
+#tabs-container {
+	display: none;
+}
+
+#accordion-container {
+	display: block;
+}
+
 
 /* Font sizes on large screen */
 
@@ -120,6 +128,13 @@ h2 {
 
 	.description {
 		font-size: 2.5rem !important;
+	}
+	
+	#tabs-container {
+		display: block;
+	}
+	#accordion-container {
+		display: none;
 	}
 		
 }
