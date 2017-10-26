@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Documentation</title>
+		<link rel="icon" href="img/succulents/icon.PNG" type="image/png">
+	
+	</head>
+	<body>
+	
+	<h1>Documentation</h1>
+	
+	<h2>Description</h2>
+		<p>My website was based on the Freelancer Bootstrap Theme. The links to all free materials I used are included in the <a href="copyrights.html">copyrights.html</a> page, so if you want you can look at the original to see how it has been changed. I chose this theme because it matched very closely to what I had in mind, so I did not change much about how it looks, just the contents. The website has four 'pages' but all included on the same page as sections. The copyrights.html is not really a part of the website content, I just added it to be safe about Creative Commons materials.</p>
+		<p>The theme of the website is succulents. I took up this hobby last year, and it is pretty much my only interest that I have high quality photos about. I would have wanted to write in a lot more detail about care and propagation, but I did not want to make the website too long and boring for the graders. If you are actually interested in the topic, I suggest taking a look at the links in the bottom.</p>
+	
+	<h2>Styling</h2>
+		<p>The look of the template was very similar to what I wanted, so I did not change it too much. In addition, many of the elements I used require a specific CSS file to work. My own stylesheet is <a href="css/style.css">style.css</a>. It mostly just contains rules to override the original styling from the various CSS files. Working with so many different CSS files, it was quite difficult to pinpoint exactly which file and which rule was causing problems when something did not look the way it was supposed to. I had to regularly use the Inspector in the Web Developer tools to see what rules apply to the elements I was trying to style. </p>
+	
+	<h2>Responsiveness</h2>
+		<p>A lot of the responsiveness of the website comes from the original template, including</p>
+		<ul>
+			<li> minimised menu with hamburger icon on small screens,</li>
+			<li> responsive image sizes,</li>
+			<li> 'scroll to top' link on small screens.</li>
+		</ul>
+		<p>In addition to these, I changed the font sizes to be responsive to screen size using rem measurements, and in some cases I set different rem font size for the same element for different resolutions. I personalised the minimised menu so that each line is tall enough to be easily clicked on a mobile device.</p>
+		<p>In the Care section originally I had the tabbed layout, but once I hosted a website and I could access it from my phone I could see that the layout does not work well for mobile phones because you need to keep scrolling up to click on the link to the next topic. I added the Accordion as a special consideration for small screen sizes but I kept the tabbed look for wide screens.</p>
+		<p>I have tested the website on Android smartphone, Android tablet and Windows laptop. These are all the devices I have, I apologise if it does not look quite as nice on other devices.</p>
+	
+	
+	<h2>Extras</h2>
+		<dl>
+			<dt>Sticky Footer</dt>
+			<dd>You can check that it actually works on tablet or wider size screens on the copyrights.html page.</dd>
+			
+			<dt>Font Awesome</dt>
+			<dd>See: icons in the Care section</dd>
+			
+			<dt>Lightbox</dt>
+			<dd>The Lightbox opens if you click on any of the images in the Photos section. It shows a larger and higher resolution image and you can navigate between images. I changed the settings so that the backward/forward links are displayed by default and that the image gallery loops back to the beginning when you reach the end.</dd>
+			
+			<dt>Hosting the website online</dt>
+			<dd>Colleen said in one of the Office Hours that hosting can count as an extra. For me it was definitely quite a challenge. I used this Azure account for my Honours project two years ago but it was my lecturer who set it up and gave me instructions on how to use it. I had forgotten most of it and I had to relearn how to use Git Bash, Github, and how to connect it to my Azure account to make it work.</dd>
+			
+			<dt>Other smaller extras</dt>
+			<dd>
+				<ul>
+					<li>Favicon - the little icon on the tab next to the page title</li>
+					<li>Tabbed display in Care section (large screens) - This works with a function based on a Switch statement that I wrote myself</li>
+					<li>Accordion in Care section (small screens) - This one I found online and customised to my purposes</li>
+				</ul>
+			</dd>
+		</dl>
+	
+	
+	<h2>Validation and Accessibility</h2>
+	For the WAVE validation I had four errors and two alerts. The alerts I could correct (1x missing first level heading and 1x suspicious link text). The errors were 1x missing first level heading and 3x empty link. I went over and over the source code and could not find what was causing these errors. They were not visibly flagged on the WAVE page either. From the number of errors I got to the conclusion that they must be caused by the backward, forward and exit links from the Lightbox. I decided that there is no point in fixing them because if a person is using a screenreader to look at the website, they probably would not be interested in using the Lightbox anyway.  I used the WebAim Colour Contrast Checker and as a result had to give up on my pretty colour transition background and use a much darker green instead. 
+		<p>Both index.html and copyrights.html validate without any errors or warnings in the W3C validator:</p>
+		<p><a href="img/index.png">Screenshot of index.html validating</a></p>
+		<p><a href="img/copyrights.png">Screenshot of copyrights.html validating</a></p>
+		<p>For the WAVE validation I had four errors and two alerts. The alerts I could correct (1x missing first level heading and 1x suspicious link text). The errors were 1x missing first level heading and 3x empty link. I went over and over the source code and could not find what was causing these errors. They were not visibly flagged on the WAVE page either. From the number of errors I got to the conclusion that they must be caused by the backward, forward and exit links from the Lightbox. If I had more time to go over the code of the Lightbox in detail, it probably would have been possible to fix these.</p>
+	Checked it against the accessibility checklist
+	
+	
+	<br />
+	<p><a href="index.html">Go back to the website</a></p>
+	</body>

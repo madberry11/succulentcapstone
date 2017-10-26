@@ -52,16 +52,16 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto navbar-right">
 						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#intro">Introduction</a>
+							<a class="nav-link js-scroll-trigger" href="#intro" tabindex="1">Introduction</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#care">Care</a>
+							<a class="nav-link js-scroll-trigger" href="#care" tabindex="2">Care</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#album">Photos</a>
+							<a class="nav-link js-scroll-trigger" href="#album" tabindex="3">Photos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#about">Useful Links</a>
+							<a class="nav-link js-scroll-trigger" href="#about" tabindex="4">Useful Links</a>
 						</li>
 					</ul>
 				</div>
@@ -314,6 +314,8 @@
             Contents by &copy; Zsofia Gaspar 2017
 			<br />
 			<a href="copyrights.html">Free materials used in this project</a>
+			<br />
+			<a href="documentation.html">Documentation</a>
 		</div>
     </footer>
 
@@ -367,9 +369,6 @@
 			event.preventDefault();
 			$("ul.carenav li").removeClass("active");
 			var clickedtab = $(this).attr('id');
-			$( ".carecontent" ).fadeOut( "slow", function() {
-				// Animation complete.
-			});
 			
 			
 			switch (clickedtab) { 
