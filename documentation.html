@@ -63,10 +63,24 @@
 		<p>Both index.html and copyrights.html validate without any errors or warnings in the W3C validator:</p>
 		<p><a href="img/index.png">Screenshot of index.html validating</a></p>
 		<p><a href="img/copyrights.png">Screenshot of copyrights.html validating</a></p>
-		<p>For the WAVE validation I had four errors and two alerts. The alerts I could correct (1x missing first level heading and 1x suspicious link text). The errors were 1x missing first level heading and 3x empty link. I went over and over the source code and could not find what was causing these errors. They were not visibly flagged on the WAVE page either. From the number of errors I got to the conclusion that they must be caused by the backward, forward and exit links from the Lightbox. If I had more time to go over the code of the Lightbox in detail, it probably would have been possible to fix these.</p>
-		<p>I used the WebAim Colour Contrast Checker and as a result had to give up on my pretty colour transition background and use a much darker green instead. </p>
-		<p>Checked it against the accessibility checklist</p>
-	
+		<p>For the WAVE validation I originally had four errors and two alerts.<br />
+		The alerts:
+			<ul>
+				<li>1x missing level heading - the tabbed view used h3 headings and I did not have any h2 headings</li>
+				<li>1x suspicious link text - apparently 'Links' is suspicious so I changed it to 'Useful Links'</li>
+			</ul>
+		The errors:
+			<ul>
+				<li>1x missing alternative text</li>
+				<li>3x empty links</li>
+			</ul>
+		I went over and over the source code and could not find what was causing these errors. They were not visibly flagged on the WAVE page either. From the number of errors I got to the conclusion that they must be caused by the backward, forward and exit links from the Lightbox. I did my best to fix these errors in the Lightbox code but it was not easy because the source code is minimised. I managed to get rid of the 'empty link' errors by adding text in a span with the class of .sr-only that is not displayed visibly. I fixed the 'missing alternative text' error by adding an alt text to the only image file mentioned in the Lightbox source code. For a long time I got instead an alert called 'suspicious alt text', but finally I managed to fix that too!</p>
+		<p><a href="img/wave.png">Screenshot of WAVE validation</a>
+		<p>I used the WebAim Colour Contrast Checker and as a result had to give up on the pretty colour transition background I originally used and change to a much darker green instead. According to the WAVE accessibility checker I still have 15 contrast errors but Colleen said the contrast will never be perfect so I am not overly worried about it.</p>
+		<p>I tried going over the WebAim Quick Reference list and did not seem to have a problem with most things on it, apart from the tabindex. I tried adding tabindex just to see if it would improve the user experience at all, but afterwards the WAVE validator gave me alerts for it and advised against using them. I did not see any benefits from using them on this particular website so I deleted them.</p>
+	<br />
+	<p>I hope I sufficiently explained how I tried to fulfil all the requirements for the project.</p>
+	<p>Thank you for your time!</p>
 	
 	<br />
 	<p><a href="index.html">Go back to the website</a></p>
