@@ -35,20 +35,6 @@ ul.sources  {
 }
 
 header, .success {
-	background: #43C6AC;  
-    background: -webkit-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
-	background: -moz-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
-	background: -ms-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
-	background: -o-linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
-	background: linear-gradient(to right, #43C6AC, #96EF76) repeat scroll 0% 0%;
-	
-	background: #43C6AC !important;  
-    background: -webkit-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
-	background: -moz-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
-	background: -ms-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
-	background: -o-linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
-	background: linear-gradient(to right, #43C6AC, #109648) repeat scroll 0% 0% !important;
-	
 	background: #1A7B4D !important;
 }
 
@@ -177,13 +163,13 @@ h1 {
         outline: none;
 	}
 	#mainNav .navbar-nav li.nav-item:hover a {
-		color: #33333 !important;
+		color: #333333 !important;
 	}
     #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         background-color: #f1f1f1;
 	}
 	#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus a {
-		color: #33333 !important; 
+		color: #333333 !important; 
 	}
 }
 
